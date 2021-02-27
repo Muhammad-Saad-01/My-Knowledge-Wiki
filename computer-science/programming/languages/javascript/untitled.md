@@ -1,3 +1,7 @@
+---
+description: 'This cheatsheet is a clone of https://github.com/denysdovhan/wtfjs'
+---
+
 # Cheatsheet
 
 JavaScript is a great language. It has a simple syntax, large ecosystem and, what is most important, a great community.
