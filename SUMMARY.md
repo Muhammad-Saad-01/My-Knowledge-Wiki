@@ -28,5 +28,5 @@
     * [Object-Oriented Programming](cs/programming/paradigms/object-oriented-programming.md)
     * [Functional Programming](cs/programming/paradigms/functional-programming.md)
 
-## Meta <a id="about"></a>
+## Thoughts
 
