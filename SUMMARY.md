@@ -1,13 +1,22 @@
 # Table of contents
 
-* [Wiki Structure](README.md)
+* [Introduction](README.md)
 
 ## Computer Science
 
 * [Algorithms](computer-science/algorithms.md)
 * [Data Structures](computer-science/data-structures.md)
+* [Operating System](computer-science/operating-system.md)
+* [Programming](computer-science/programming/README.md)
+  * [Languages](computer-science/programming/languages/README.md)
+    * [Java](computer-science/programming/languages/java.md)
+    * [JavaScript](computer-science/programming/languages/javascript.md)
+    * [Python](computer-science/programming/languages/python.md)
+  * [Paradigms](computer-science/programming/paradigms/README.md)
+    * [Object-Oriented Programming](computer-science/programming/paradigms/object-oriented-programming.md)
+    * [Functional Programming](computer-science/programming/paradigms/functional-programming.md)
 
----
+## Meta <a id="about"></a>
 
-* [Untitled](untitled.md)
+* [Wiki Structure](about/introduction.md)
 
