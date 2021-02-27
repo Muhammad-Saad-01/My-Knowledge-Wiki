@@ -1,12 +1,27 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Meta](meta.md)
 
 ## Computer Science Concepts <a id="cs"></a>
 
-* [Algorithms](cs/algorithms.md)
-* [Data Structures](cs/data-structures.md)
-* [Operating System](cs/operating-system.md)
+* [Algorithms](cs/algorithms/README.md)
+  * [Overview](cs/algorithms/overview.md)
+* [Data Structures](cs/data-structures/README.md)
+  * [Non-Linear Data Structures](cs/data-structures/non-linear-data-structures.md)
+  * [Linear Data Structures](cs/data-structures/linear-data-structures.md)
+* [System Design](cs/system-design.md)
+* [Database](cs/database.md)
+* [Artificial Intelligence](cs/artificial-intelligence/README.md)
+  * [Machine Learning](cs/artificial-intelligence/machine-learning.md)
+* [Compiler](cs/compiler.md)
+* [Operating System](cs/operating-system/README.md)
+  * [Overview](cs/operating-system/overview.md)
+* [Software Engineering](cs/software-engineering/README.md)
+  * [Software Design and Architecture](cs/software-engineering/software-design-and-architecture/README.md)
+    * [KISS Principles](cs/software-engineering/software-design-and-architecture/kiss-principles.md)
+    * [SOLID Principles](cs/software-engineering/software-design-and-architecture/solid-principles/README.md)
+      * [Java Example](cs/software-engineering/software-design-and-architecture/solid-principles/java-example.md)
 * [Programming](cs/programming/README.md)
   * [Languages](cs/programming/languages/README.md)
     * [Java](cs/programming/languages/java.md)
@@ -18,7 +33,5 @@
     * [Object-Oriented Programming](cs/programming/paradigms/object-oriented-programming.md)
     * [Functional Programming](cs/programming/paradigms/functional-programming.md)
 
-## Meta <a id="about"></a>
-
-* [Meta](about/meta.md)
+## Thoughts
 
