@@ -5,13 +5,15 @@
 
 ## Computer Science Concepts <a id="cs"></a>
 
-* [Algorithms](cs/algorithms.md)
+* [Algorithms](cs/algorithms/README.md)
+  * [Overview](cs/algorithms/overview.md)
 * [Data Structures](cs/data-structures.md)
 * [System Design](cs/system-design.md)
 * [Database](cs/database.md)
 * [Artificial Intelligence](cs/artificial-intelligence.md)
 * [Compiler](cs/compiler.md)
-* [Operating System](cs/operating-system.md)
+* [Operating System](cs/operating-system/README.md)
+  * [Overview](cs/operating-system/overview.md)
 * [Software Engineering](cs/software-engineering/README.md)
   * [Software Design and Architecture](cs/software-engineering/software-design-and-architecture/README.md)
     * [KISS Principles](cs/software-engineering/software-design-and-architecture/kiss-principles.md)
