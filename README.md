@@ -2,11 +2,9 @@
 
 This is my personal wiki where I share [Everything I Know](https://wiki.muhammad-saad.me) about this world in form of an [online GitBook](https://wiki.muhammad-saad.me) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by ****[Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
 
-If this is your first visit, welcome! , you may be overwhelmed by the amount of content and don't know where to start reading. A good entry point is meta, where I describe this wiki, its structure, and goals in more detail.
+If this is your first visit, welcome! , you may be overwhelmed by the amount of content and don't know where to start reading. A good entry point is [meta](meta.md), where I describe this wiki, its structure, and goals in more detail.
 
-### Using the wiki well
-
-You can quickly search the contents of this wiki above or you can explore the tree view to the left.
+to use this wiki well you can quickly search the contents of this wiki above or you can explore the tree view to the left.
 
 ## Other things I wrote and shared
 
@@ -22,12 +20,6 @@ Such wikis are also called [digital gardens](https://joelhooks.com/digital-garde
 
 Don't be afraid to create one of your own and share what you know with the world.
 
-## Make your own wiki
-
-You can view other similar to this, continuously updated wikis, [here](https://github.com/RichardLitt/meta-knowledge#readme).
-
-Don't be afraid to create one of your own and share what you know with the world.
-
 ## Contributing 
 
 If you found a mistake anywhere in this wiki, I would appreciate your help. You can quickly find any entry you wish to edit by [searching for the topic](https://github.com/muhammad-saad-01/my-knowledge-wiki/find/master) and then making the changes.
@@ -36,9 +28,9 @@ I'd love to hear any [ideas you have](https://github.com/nikitavoloboev/knowledg
 
 ## Thank you
 
-You can support me on [GitHub](https://github.com/sponsors/muhammad-saad-01) or look into [other projects](https://muhammad-saad.me/projects) I shared.
-
-I also appreciate any [ideas you have](https://github.com/muhammad-saad-01/my-knowledge-wiki/issues/new) on how I can improve this wiki.
+You can support me on [GitHub](https://github.com/sponsors/muhammad-saad-01) or look into [other projects](https://muhammad-saad.me/index.html#portfolio) I shared.
 
 You can [ask me anything](https://github.com/Muhammad-Saad-01/AMA) you want at any time.
+
+I also appreciate any [ideas you have](https://github.com/muhammad-saad-01/my-knowledge-wiki/issues/new) on how I can improve this wiki.
 
