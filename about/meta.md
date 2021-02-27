@@ -30,6 +30,7 @@ My blue book is heavily inspired by these there other digital gardens:
 
 * [Omar's wiki](https://wiki.omar.engineer/)
 * [Nikita's wiki](https://wiki.nikitavoloboev.xyz/)
-* 
-If you find some mistake, especially if something that I say is plain wrong, please fork [this repository](https://github.com/nikitavoloboev/knowledge) and make a PR with correct changes. Or [open an issue](https://github.com/nikitavoloboev/knowledge/issues/new) saying what you think is wrong.
+* [The Blue Book](https://lyz-code.github.io/blue-book/)
+
+If you find some mistake, especially if something that I say is plain wrong, please fork [this repository](https://github.com/muhammad-saad-01/my-knowledge-wiki) and make a PR with correct changes. Or [open an issue](https://github.com/muhammad-saad-01/my-knowledge-wiki/issues/new) saying what you think is wrong.
 

@@ -10,6 +10,7 @@
 * [Programming](computer-science/programming/README.md)
   * [Languages](computer-science/programming/languages/README.md)
     * [Java](computer-science/programming/languages/java.md)
+    * [C++](computer-science/programming/languages/c++.md)
     * [JavaScript](computer-science/programming/languages/javascript/README.md)
       * [Cheatsheet](computer-science/programming/languages/javascript/untitled.md)
     * [Python](computer-science/programming/languages/python.md)
@@ -19,5 +20,5 @@
 
 ## Meta <a id="about"></a>
 
-* [Meta](about/introduction.md)
+* [Meta](about/meta.md)
 
