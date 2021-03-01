@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Meta](meta.md)
 
-## Computer Science Concepts <a id="cs"></a>
+## Computer Science <a id="cs"></a>
 
 * [Algorithms](cs/algorithms/README.md)
   * [Overview](cs/algorithms/overview.md)
@@ -32,6 +32,4 @@
   * [Paradigms](cs/programming/paradigms/README.md)
     * [Object-Oriented Programming](cs/programming/paradigms/object-oriented-programming.md)
     * [Functional Programming](cs/programming/paradigms/functional-programming.md)
-
-## Thoughts
 

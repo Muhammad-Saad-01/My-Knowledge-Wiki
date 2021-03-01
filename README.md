@@ -1,6 +1,6 @@
 # Introduction
 
-This is my personal wiki where I share [Everything I Know](https://wiki.muhammad-saad.me) about this world in form of an [online GitBook](https://wiki.muhammad-saad.me) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by ****[Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
+This is my personal wiki where I share [Everything I Know](https://wiki.muhammad-saad.me) about this world in form of an [online GitBook](https://wiki.muhammad-saad.me) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
 
 If this is your first visit, welcome! , you may be overwhelmed by the amount of content and don't know where to start reading. A good entry point is [meta](meta.md), where I describe this wiki, its structure, and goals in more detail.
 
@@ -20,7 +20,7 @@ Such wikis are also called [digital gardens](https://joelhooks.com/digital-garde
 
 Don't be afraid to create one of your own and share what you know with the world.
 
-## Contributing 
+## Contributing
 
 If you found a mistake anywhere in this wiki, I would appreciate your help. You can quickly find any entry you wish to edit by [searching for the topic](https://github.com/muhammad-saad-01/my-knowledge-wiki/find/master) and then making the changes.
 
