@@ -20,7 +20,7 @@ Such wikis are also called [digital gardens](https://joelhooks.com/digital-garde
 
 Don't be afraid to create one of your own and share what you know with the world.
 
-## Contributing 
+## Contributing
 
 If you found a mistake anywhere in this wiki, I would appreciate your help. You can quickly find any entry you wish to edit by [searching for the topic](https://github.com/muhammad-saad-01/my-knowledge-wiki/find/master) and then making the changes.
 
