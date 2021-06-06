@@ -1,2 +1,4 @@
-# Untitled
+# Note Taking
+
+* Notion
 
