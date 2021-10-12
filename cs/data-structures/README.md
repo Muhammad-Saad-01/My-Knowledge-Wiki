@@ -1,12 +1,10 @@
 ---
-description: 'Overview about Data Structures, What? Why?'
+description: Overview about Data Structures, What? Why?
 ---
 
 # Data Structures
 
 
 
-![](../../.gitbook/assets/types-of-data-structures.png)
-
-
+![](<../../.gitbook/assets/Types of Data Structures.png>)
 

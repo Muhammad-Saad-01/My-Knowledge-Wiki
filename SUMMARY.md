@@ -3,14 +3,14 @@
 * [Introduction](README.md)
 * [Meta](meta.md)
 
-## Computer Science <a id="cs"></a>
+## Computer Science <a href="cs" id="cs"></a>
 
 * [Algorithms](cs/algorithms/README.md)
   * [Analysis of Algorithms](cs/algorithms/analysis-of-algorithms.md)
   * [Searching](cs/algorithms/overview.md)
   * [Sorting](cs/algorithms/sorting.md)
   * [Greedy](cs/algorithms/greedy.md)
-  * [String Processing \(Pattern Matching\)](cs/algorithms/string-processing-pattern-matching.md)
+  * [String Processing (Pattern Matching)](cs/algorithms/string-processing-pattern-matching.md)
   * [Backtracking](cs/algorithms/backtracking.md)
   * [Dynamic Programming](cs/algorithms/dynamic-programming.md)
   * [Divide and Conquer](cs/algorithms/divide-and-conquer.md)
@@ -32,7 +32,7 @@
 * [Artificial Intelligence](cs/artificial-intelligence/README.md)
   * [Machine Learning](cs/artificial-intelligence/machine-learning.md)
   * [Deep Learning](cs/artificial-intelligence/deep-learning.md)
-* [Compiler](cs/compiler.md)
+* [Compilers](cs/compiler.md)
 * [Operating System](cs/operating-system/README.md)
   * [Overview](cs/operating-system/overview.md)
 * [Software Engineering](cs/software-engineering/README.md)
@@ -52,7 +52,13 @@
     * [Functional Programming](cs/programming/paradigms/functional-programming.md)
     * [Aspect-Oriented Programming](cs/programming/paradigms/aspect-oriented-programming.md)
 
-## Useful Software Products <a id="apps"></a>
+## Education
+
+* [Philosophy of Education](education/philosophy-of-education.md)
+* [Pedagogies](education/pedagogies.md)
+
+## Useful Software Products <a href="apps" id="apps"></a>
 
 * [Note Taking](apps/untitled.md)
-
+* [Brainstorming](apps/brainstorming.md)
+* [Automation](apps/automation.md)

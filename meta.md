@@ -12,7 +12,7 @@ Each directory is a topic that can include other subtopics under it related to t
 
 If this is your first time visiting this wiki, you can just start reading from the top entry down and see what sparks your interest.
 
-### Content Structure <a id="content-structure"></a>
+### Content Structure <a href="content-structure" id="content-structure"></a>
 
 Each topic will have a title, some description of it, usually my own thoughts and knowledge on it as well as referencing some resources or links I have liked or used that helped me either understand the topic or gain an appreciation of it.
 
@@ -24,13 +24,12 @@ The structure of each of the posts will often look roughly like this:
 4. Notes - My own personal notes on the matter as well as things I found interesting on the internet regarding the topic. I often give a link of where I got things from.
 5. Links - Links related to the topic.
 
-### References <a id="references"></a>
+### References <a href="references" id="references"></a>
 
 My blue book is heavily inspired by these there other digital gardens:
 
-* [Omar's wiki](https://wiki.omar.engineer/)
-* [Nikita's wiki](https://wiki.nikitavoloboev.xyz/)
+* [Omar's wiki](https://wiki.omar.engineer)
+* [Nikita's wiki](https://wiki.nikitavoloboev.xyz)
 * [The Blue Book](https://lyz-code.github.io/blue-book/)
 
 If you find some mistake, especially if something that I say is plain wrong, please fork [this repository](https://github.com/muhammad-saad-01/my-knowledge-wiki) and make a PR with correct changes. Or [open an issue](https://github.com/muhammad-saad-01/my-knowledge-wiki/issues/new) saying what you think is wrong.
-

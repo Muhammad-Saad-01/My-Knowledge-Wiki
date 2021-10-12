@@ -1,5 +1,5 @@
 ---
-description: 'This cheatsheet is a clone of https://github.com/denysdovhan/wtfjs'
+description: This cheatsheet is a clone of https://github.com/denysdovhan/wtfjs
 ---
 
 # Cheatsheet
@@ -40,7 +40,7 @@ If you are a professional developer, you can consider these examples as a great 
 
 In any case, just read this. You're probably going to find something new.
 
-> **⚠️ Note:** If you enjoy reading this document, pleas, [consider supporting the author of this collection]().
+> **⚠️ Note:** If you enjoy reading this document, pleas, [consider supporting the author of this collection](broken-reference).
 
 ## ✍🏻 Notation
 
@@ -86,9 +86,9 @@ Here is how this expression simplifies:
 true;
 ```
 
-See also [`[]` is truthy, but not `true`]().
+See also [`[]` is truthy, but not `true`](broken-reference).
 
-* [**12.5.9** Logical NOT Operator \(`!`\)](https://www.ecma-international.org/ecma-262/#sec-logical-not-operator)
+* [**12.5.9** Logical NOT Operator (`!`)](https://www.ecma-international.org/ecma-262/#sec-logical-not-operator)
 * [**7.2.15** Abstract Equality Comparison](https://262.ecma-international.org/11.0/index.html#sec-abstract-equality-comparison)
 
 ### `true` is not equal `![]`, but not equal `[]` too
@@ -186,7 +186,7 @@ This is an old-school joke in JavaScript, but remastered. Here's the original on
 
 The expression is evaluated as `'foo' + (+'bar')`, which converts `'bar'` to not a number.
 
-* [**12.8.3** The Addition Operator \(`+`\)](https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus)
+* [**12.8.3** The Addition Operator (`+`)](https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus)
 * [12.5.6 Unary + Operator](https://www.ecma-international.org/ecma-262/#sec-unary-plus-operator)
 
 ### `NaN` is not a `NaN`
@@ -257,7 +257,7 @@ By breaking that mass of symbols into pieces, we notice that the following patte
 ![]; // -> false
 ```
 
-So we try adding `[]` to `false`. But due to a number of internal function calls \(`binary + Operator` -&gt; `ToPrimitive` -&gt; `[[DefaultValue]]`\) we end up converting the right operand to a string:
+So we try adding `[]` to `false`. But due to a number of internal function calls (`binary + Operator` -> `ToPrimitive` -> `[[DefaultValue]]`) we end up converting the right operand to a string:
 
 ```javascript
 ![] + [].toString(); // 'false'
@@ -300,7 +300,7 @@ An array is a truthy value, however, it's not equal to `true`.
 
 Here are links to the corresponding sections in the ECMA-262 specification:
 
-* [**12.5.9** Logical NOT Operator \(`!`\)](https://www.ecma-international.org/ecma-262/#sec-logical-not-operator)
+* [**12.5.9** Logical NOT Operator (`!`)](https://www.ecma-international.org/ecma-262/#sec-logical-not-operator)
 * [**7.2.15** Abstract Equality Comparison](https://262.ecma-international.org/11.0/index.html#sec-abstract-equality-comparison)
 
 ### `null` is falsy, but not `false`
@@ -351,7 +351,7 @@ document.all == null; // -> true
 
 #### 💡 Explanation:
 
-> `document.all` used to be a way to access DOM elements, in particular with old versions of IE. While it has never been a standard it was broadly used in the old age JS code. When the standard progressed with new APIs \(such as `document.getElementById`\) this API call became obsolete and the standard committee had to decide what to do with it. Because of its broad use they decided to keep the API but introduce a willful violation of the JavaScript specification. The reason why it responds to `false` when using the [Strict Equality Comparison](https://www.ecma-international.org/ecma-262/#sec-strict-equality-comparison) with `undefined` while `true` when using the [Abstract Equality Comparison](https://262.ecma-international.org/11.0/index.html#sec-abstract-equality-comparison) is due to the willful violation of the specification that explicitly allows that.
+> `document.all` used to be a way to access DOM elements, in particular with old versions of IE. While it has never been a standard it was broadly used in the old age JS code. When the standard progressed with new APIs (such as `document.getElementById`) this API call became obsolete and the standard committee had to decide what to do with it. Because of its broad use they decided to keep the API but introduce a willful violation of the JavaScript specification. The reason why it responds to `false` when using the [Strict Equality Comparison](https://www.ecma-international.org/ecma-262/#sec-strict-equality-comparison) with `undefined` while `true` when using the [Abstract Equality Comparison](https://262.ecma-international.org/11.0/index.html#sec-abstract-equality-comparison) is due to the willful violation of the specification that explicitly allows that.
 >
 > — [“Obsolete features - document.all”](https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-all) at WhatWG - HTML spec — [“Chapter 4 - ToBoolean - Falsy values”](https://github.com/getify/You-Dont-Know-JS/blob/0d79079b61dad953bbfde817a5893a49f7e889fb/types%20%26%20grammar/ch4.md#falsy-objects) at YDKJS - Types & Grammar
 
@@ -371,11 +371,11 @@ Number.MIN_VALUE > 0; // -> true
 >
 > — [“Why is `0` less than `Number.MIN_VALUE` in JavaScript?”](https://stackoverflow.com/questions/26614728/why-is-0-less-than-number-min-value-in-javascript) at StackOverflow
 
-* [**20.1.2.9** Number.MIN\_VALUE](https://www.ecma-international.org/ecma-262/#sec-number.min_value)
+* [**20.1.2.9** Number.MIN_VALUE](https://www.ecma-international.org/ecma-262/#sec-number.min_value)
 
 ### function is not a function
 
-> ⚠️ A bug present in V8 v5.5 or lower \(Node.js &lt;=7\) ⚠️
+> ⚠️ A bug present in V8 v5.5 or lower (Node.js <=7) ⚠️
 
 All of you know about the annoying _undefined is not a function_, but what about this?
 
@@ -395,7 +395,7 @@ This is not a part of the specification. It's just a bug that has now been fixed
 
 #### Super constructor null of Foo is not a constructor
 
-It's continuation of story with previous bug in modern environment \(tested with Chrome 71 and Node.js v11.8.0\).
+It's continuation of story with previous bug in modern environment (tested with Chrome 71 and Node.js v11.8.0).
 
 ```javascript
 class Foo extends null {}
@@ -417,7 +417,7 @@ If the class has no constructor the call from prototype chain. But in the parent
 typeof null === 'object'
 ```
 
-Therefore, you can inherit from it \(although in the world of the OOP for such terms would have beaten me\). So you can't call the null constructor. If you change this code:
+Therefore, you can inherit from it (although in the world of the OOP for such terms would have beaten me). So you can't call the null constructor. If you change this code:
 
 ```javascript
 class Foo extends null {
@@ -429,7 +429,7 @@ class Foo extends null {
 
 You see the error:
 
-```text
+```
 ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
 ```
 
@@ -446,7 +446,7 @@ class Foo extends null {
 
 JS throws an error:
 
-```text
+```
 TypeError: Super constructor null of Foo is not a constructor
 ```
 
@@ -486,7 +486,7 @@ a.toString(); // -> ',,'
 
 #### 💡 Explanation:
 
-> **Trailing commas** \(sometimes called "final commas"\) can be useful when adding new elements, parameters, or properties to JavaScript code. If you want to add a new property, you can simply add a new line without modifying the previously last line if that line already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
+> **Trailing commas** (sometimes called "final commas") can be useful when adding new elements, parameters, or properties to JavaScript code. If you want to add a new property, you can simply add a new line without modifying the previously last line if that line already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
 >
 > — [Trailing commas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas) at MDN
 
@@ -544,7 +544,7 @@ According to the specification:
 Here's the corresponding section:
 
 * [**20.1.1** The Number Constructor](https://www.ecma-international.org/ecma-262/#sec-number-constructor)
-* [**7.1.3** ToNumber\(`argument`\)](https://www.ecma-international.org/ecma-262/#sec-tonumber)
+* [**7.1.3** ToNumber(`argument`)](https://www.ecma-international.org/ecma-262/#sec-tonumber)
 
 ### `parseInt` is a bad guy
 
@@ -588,7 +588,7 @@ parseInt(null, 24); // -> 23
 
 > It's converting `null` to the string `"null"` and trying to convert it. For radixes 0 through 23, there are no numerals it can convert, so it returns NaN. At 24, `"n"`, the 14th letter, is added to the numeral system. At 31, `"u"`, the 21st letter, is added and the entire string can be decoded. At 37 on there is no longer any valid numeral set that can be generated and `NaN` is returned.
 >
-> — [“parseInt\(null, 24\) === 23… wait, what?”](https://stackoverflow.com/questions/6459758/parseintnull-24-23-wait-what) at StackOverflow
+> — [“parseInt(null, 24) === 23… wait, what?”](https://stackoverflow.com/questions/6459758/parseintnull-24-23-wait-what) at StackOverflow
 
 Don't forget about octals:
 
@@ -598,7 +598,7 @@ parseInt("08"); // 8 if support ECMAScript 5
 parseInt("08"); // 0 if not support ECMAScript 5
 ```
 
-**💡 Explanation:** If the input string begins with "0", radix is eight \(octal\) or 10 \(decimal\). Exactly which radix is chosen is implementation-dependent. ECMAScript 5 specifies that 10 \(decimal\) is used, but not all browsers support this yet. For this reason always specify a radix when using `parseInt`.
+**💡 Explanation:** If the input string begins with "0", radix is eight (octal) or 10 (decimal). Exactly which radix is chosen is implementation-dependent. ECMAScript 5 specifies that 10 (decimal) is used, but not all browsers support this yet. For this reason always specify a radix when using `parseInt`.
 
 `parseInt` always convert input to string:
 
@@ -651,12 +651,12 @@ That's why we can add boolean values as regular numbers and get correct results.
 Corresponding sections:
 
 * [**12.5.6** Unary `+` Operator](https://www.ecma-international.org/ecma-262/#sec-unary-plus-operator)
-* [**12.8.3** The Addition Operator \(`+`\)](https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus)
-* [**7.1.3** ToNumber\(`argument`\)](https://www.ecma-international.org/ecma-262/#sec-tonumber)
+* [**12.8.3** The Addition Operator (`+`)](https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus)
+* [**7.1.3** ToNumber(`argument`)](https://www.ecma-international.org/ecma-262/#sec-tonumber)
 
 ### HTML comments are valid in JavaScript
 
-You will be impressed, but `<!--` \(which is known as HTML comment\) is a valid comment in JavaScript.
+You will be impressed, but `<!--` (which is known as HTML comment) is a valid comment in JavaScript.
 
 ```javascript
 // valid comment
@@ -684,7 +684,7 @@ typeof NaN; // -> 'number'
 Explanations of how `typeof` and `instanceof` operators work:
 
 * [**12.5.5** The `typeof` Operator](https://www.ecma-international.org/ecma-262/#sec-typeof-operator)
-* [**12.10.4** Runtime Semantics: InstanceofOperator\(`O`,`C`\)](https://www.ecma-international.org/ecma-262/#sec-instanceofoperator)
+* [**12.10.4** Runtime Semantics: InstanceofOperator(`O`,`C`)](https://www.ecma-international.org/ecma-262/#sec-instanceofoperator)
 
 ### `[]` and `null` are objects
 
@@ -733,7 +733,7 @@ Object.prototype.toString.call(null);
 This is caused by IEEE 754-2008 standard for Binary Floating-Point Arithmetic. At this scale, it rounds to the nearest even number. Read more:
 
 * [**6.1.6** The Number Type](https://www.ecma-international.org/ecma-262/#sec-ecmascript-language-types-number-type)
-* [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) on Wikipedia
+* [IEEE 754](https://en.wikipedia.org/wiki/IEEE\_754) on Wikipedia
 
 ### Precision of `0.1 + 0.2`
 
@@ -750,7 +750,7 @@ The answer for the [”Is floating point math broken?”](https://stackoverflow.
 
 > The constants `0.2` and `0.3` in your program will also be approximations to their true values. It happens that the closest `double` to `0.2` is larger than the rational number `0.2` but that the closest `double` to `0.3` is smaller than the rational number `0.3`. The sum of `0.1` and `0.2` winds up being larger than the rational number `0.3` and hence disagreeing with the constant in your code.
 
-This problem is so known that there is even a website called [0.30000000000000004.com](http://0.30000000000000004.com/). It occurs in every language that uses floating-point math, not just JavaScript.
+This problem is so known that there is even a website called [0.30000000000000004.com](http://0.30000000000000004.com). It occurs in every language that uses floating-point math, not just JavaScript.
 
 ### Patching numbers
 
@@ -794,7 +794,7 @@ true > 1; // true -> 1
 1 > 1; // -> false
 ```
 
-We can fix this with _Greater than or equal operator \(`>=`\)_:
+We can fix this with _Greater than or equal operator (`>=`)_:
 
 ```javascript
 3 > 2 >= 1; // true
@@ -831,7 +831,7 @@ Often the results of arithmetic operations in JavaScript might be quite unexpect
 
 What's happening in the first four examples? Here's a small table to understand addition in JavaScript:
 
-```text
+```
 Number  + Number  -> addition
 Boolean + Number  -> addition
 Boolean + Boolean -> addition
@@ -842,9 +842,9 @@ String  + String  -> concatenation
 
 What about other examples? A `ToPrimitive` and `ToString` methods are being implicitly called for `[]` and `{}` before addition. Read more about evaluation process in the specification:
 
-* [**12.8.3** The Addition Operator \(`+`\)](https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus)
-* [**7.1.1** ToPrimitive\(`input` \[,`PreferredType`\]\)](https://www.ecma-international.org/ecma-262/#sec-toprimitive)
-* [**7.1.12** ToString\(`argument`\)](https://www.ecma-international.org/ecma-262/#sec-tostring)
+* [**12.8.3** The Addition Operator (`+`)](https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus)
+* [**7.1.1** ToPrimitive(`input` \[,`PreferredType`\])](https://www.ecma-international.org/ecma-262/#sec-toprimitive)
+* [**7.1.12** ToString(`argument`)](https://www.ecma-international.org/ecma-262/#sec-tostring)
 
 Notably, `{} + []` here is the exception. The reason why it differs from `[] + {}` is that, without parenthesis, it is interpreted as a code block and then a unary +, converting `[]` into a number. It sees the following:
 
@@ -949,7 +949,7 @@ function template(strings, ...keys) {
 }
 ```
 
-This is the [magic behind](http://mxstbr.blog/2016/11/styled-components-magic-explained/) famous library called [💅 styled-components](https://www.styled-components.com/), which is popular in the React community.
+This is the [magic behind](http://mxstbr.blog/2016/11/styled-components-magic-explained/) famous library called [💅 styled-components](https://www.styled-components.com), which is popular in the React community.
 
 Link to the specification:
 
@@ -967,8 +967,8 @@ console.log.call.call.call.call.call.apply(a => a, [1, 2]);
 
 Attention, it could break your mind! Try to reproduce this code in your head: we're applying the `call` method using the `apply` method. Read more:
 
-* [**19.2.3.3** Function.prototype.call\(`thisArg`, ...`args`\)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.call)
-* [**19.2.3.1**  Function.prototype.apply\(`thisArg`, `argArray`\)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.apply)
+* [**19.2.3.3** Function.prototype.call(`thisArg`, ...`args`)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.call)
+* [**19.2.3.1 ** Function.prototype.apply(`thisArg`, `argArray`)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.apply)
 
 ### A `constructor` property
 
@@ -1056,10 +1056,10 @@ This happens because when something doesn't have a prototype, it will be wrapped
 
 Here is more information about `__proto__`:
 
-* [**B.2.2.1** Object.prototype.**proto**](https://www.ecma-international.org/ecma-262/#sec-object.prototype.__proto__)
-* [**7.1.13** ToObject\(`argument`\)](https://www.ecma-international.org/ecma-262/#sec-toobject)
+* [**B.2.2.1** Object.prototype.**proto**](https://www.ecma-international.org/ecma-262/#sec-object.prototype.\__proto\_\_)
+* [**7.1.13** ToObject(`argument`)](https://www.ecma-international.org/ecma-262/#sec-toobject)
 
-### ```${{Object}}```
+### `` `${{Object}}` ``
 
 What is the result of the expression below?
 
@@ -1186,7 +1186,7 @@ a: b: c: d: e: f: g: 1, 2, 3, 4, 5; // -> 5
 
 Similar to previous examples, follow these links:
 
-* [**12.16** Comma Operator \(`,`\)](https://www.ecma-international.org/ecma-262/#sec-comma-operator)
+* [**12.16** Comma Operator (`,`)](https://www.ecma-international.org/ecma-262/#sec-comma-operator)
 * [**13.13** Labelled Statements](https://tc39.github.io/ecma262/#sec-labelled-statements)
 * [Labeled statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label) at MDN
 
@@ -1222,10 +1222,10 @@ Is this a multiple inheritance? Nope.
 
 #### 💡 Explanation:
 
-The interesting part is the value of the `extends` clause \(`(String, Array)`\). The grouping operator always returns its last argument, so `(String, Array)` is actually just `Array`. That means we've just created a class which extends `Array`.
+The interesting part is the value of the `extends` clause (`(String, Array)`). The grouping operator always returns its last argument, so `(String, Array)` is actually just `Array`. That means we've just created a class which extends `Array`.
 
 * [**14.5** Class Definitions](https://www.ecma-international.org/ecma-262/#sec-class-definitions)
-* [**12.16** Comma Operator \(`,`\)](https://www.ecma-international.org/ecma-262/#sec-comma-operator)
+* [**12.16** Comma Operator (`,`)](https://www.ecma-international.org/ecma-262/#sec-comma-operator)
 
 ### A generator which yields itself
 
@@ -1548,7 +1548,7 @@ Long story short, if `null` is less than `0` is `false`, then `null >= 0` is `tr
 
 #### 💡 Explanation:
 
-While your first instinct may be that IE11 is correct and Firefox/Chrome are wrong, the reality is that Firefox/Chrome are more directly obeying standards for numbers \(IEEE-754 Floating Point\), while IE11 is minutely disobeying them in \(what is probably\) an effort to give clearer results.
+While your first instinct may be that IE11 is correct and Firefox/Chrome are wrong, the reality is that Firefox/Chrome are more directly obeying standards for numbers (IEEE-754 Floating Point), while IE11 is minutely disobeying them in (what is probably) an effort to give clearer results.
 
 You can see why this occurs with a few quick tests:
 
@@ -1566,11 +1566,11 @@ Floating point numbers are not stored as a list of decimal digits internally, bu
 
 In this case, that "5" on the end was actually an extremely tiny fraction below a true 5. Rounding it at any reasonable length will render it as a 5... but it is actually not a 5 internally.
 
-IE11, however, will report the value input with only zeros appended to the end even in the toFixed\(20\) case, as it seems to be forcibly rounding the value to reduce the troubles from hardware limits.
+IE11, however, will report the value input with only zeros appended to the end even in the toFixed(20) case, as it seems to be forcibly rounding the value to reduce the troubles from hardware limits.
 
 See for reference `NOTE 2` on the ECMA-262 definition for `toFixed`.
 
-* [**20.1.3.3** Number.prototype.toFixed \(`fractionDigits`\)](https://www.ecma-international.org/ecma-262//#sec-number.prototype.tofixed)
+* [**20.1.3.3** Number.prototype.toFixed (`fractionDigits`)](https://www.ecma-international.org/ecma-262/#sec-number.prototype.tofixed)
 
 ### `Math.max()` less than `Math.min()`
 
@@ -1584,7 +1584,7 @@ Math.min() > Math.max(); // -> true
 
 #### 💡 Explanation:
 
-* [Why is Math.max\(\) less than Math.min\(\)?](https://charlieharvey.org.uk/page/why_math_max_is_less_than_math_min) by Charlie Harvey
+* [Why is Math.max() less than Math.min()?](https://charlieharvey.org.uk/page/why_math_max_is_less_than_math_min) by Charlie Harvey
 
 ### Comparing `null` to `0`
 
@@ -1596,7 +1596,7 @@ null > 0; // -> false
 null >= 0; // -> true
 ```
 
-How can `null` be neither equal to nor greater than `0`, if `null >= 0` is actually `true`? \(This also works with less than in the same way.\)
+How can `null` be neither equal to nor greater than `0`, if `null >= 0` is actually `true`? (This also works with less than in the same way.)
 
 #### 💡 Explanation:
 
@@ -1661,7 +1661,7 @@ All definitions are merged into one definition.
 
 * [**13.3.2** Variable Statement](https://www.ecma-international.org/ecma-262/#sec-variable-statement)
 
-### Default behavior Array.prototype.sort\(\)
+### Default behavior Array.prototype.sort()
 
 Imagine that you need to sort an array of numbers.
 
@@ -1673,7 +1673,7 @@ Imagine that you need to sort an array of numbers.
 
 The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
-* [**22.1.3.25** Array.prototype.sort \( comparefn \)](https://www.ecma-international.org/ecma-262/#sec-array.prototype.sort)
+* [**22.1.3.25** Array.prototype.sort ( comparefn )](https://www.ecma-international.org/ecma-262/#sec-array.prototype.sort)
 
 #### Hint
 
@@ -1683,7 +1683,7 @@ Pass `compareFn` if you try to sort anything but string.
 [10, 1, 3 ].sort((a, b) => a - b) // -> [ 1, 3, 10 ]
 ```
 
-### resolve\(\) won't return Promise instance
+### resolve() won't return Promise instance
 
 ```javascript
 const theObject = {
@@ -1719,9 +1719,9 @@ thePromise.then(value => {
 
 #### 💡 Explanation:
 
-> This function flattens nested layers of promise-like objects \(e.g. a promise that resolves to a promise that resolves to something\) into a single layer.
+> This function flattens nested layers of promise-like objects (e.g. a promise that resolves to a promise that resolves to something) into a single layer.
 
-* [Promise.resolve\(\) on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve)
+* [Promise.resolve() on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve)
 
 The specification is [ECMAScript 25.6.1.3.2 Promise Resolve Functions](https://tc39.es/ecma262/#sec-promise-resolve-functions). But it is not quite human-friendly.
 
@@ -1745,7 +1745,7 @@ Write them in the console. They will return the value defined in the last object
 
 When inspecting each `{}`, they returns undefined. If you inspect `{foo: 'bar'}{}`, you will find `{foo: 'bar'}` is `'bar'`.
 
-There are two meanings for `{}`: an object or a block. For example, the `{}` in `() => {}` means block. So we need to use `() => ({}`\) to return an object.
+There are two meanings for `{}`: an object or a block. For example, the `{}` in `() => {}` means block. So we need to use `() => ({}`) to return an object.
 
 Let's use `{foo: 'bar'}` as a block. Write this snippet in your console:
 
@@ -1816,7 +1816,7 @@ This on is literally from hell:
 
 This one is based on octal escape sequences and multiple strings.
 
-Any character with a character code lower than 256 \(i.e. any character in the extended ASCII range\) can be escaped using its octal-encoded character code, prefixed with `\`. An example above is basically and `alert` ecoded by octal escape sequances.
+Any character with a character code lower than 256 (i.e. any character in the extended ASCII range) can be escaped using its octal-encoded character code, prefixed with `\`. An example above is basically and `alert` ecoded by octal escape sequances.
 
 * [Martin Kleppe tweet about it](https://twitter.com/aemkei/status/897172907222237185)
 * [JavaScript character escape sequences](https://mathiasbynens.be/notes/javascript-escapes#octal)
@@ -1839,13 +1839,13 @@ Usually, runtime stores the delay as a 32-bit signed integer internally. This ca
 
 For example, in Node.js we will get this warning:
 
-```text
+```
 (node:1731) TimeoutOverflowWarning: Infinity does not fit into a 32-bit signed integer.
 Timeout duration was set to 1.
 (Use `node --trace-warnings ...` to show where the warning was created)
 ```
 
-* [WindowOrWorkerGlobalScope.setTimeout\(\)](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) on MDN
+* [WindowOrWorkerGlobalScope.setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) on MDN
 * [Node.js Documentation on Timers](https://nodejs.org/api/timers.html#timers_settimeout_callback_delay_args)
 * [Timers](https://www.w3.org/TR/2011/WD-html5-20110525/timers.html) on W3C
 
@@ -1882,7 +1882,7 @@ You must always use parenthesis or an addition dot to make such expression valid
 ```
 
 * [Usage of toString in JavaScript](https://stackoverflow.com/questions/6853865/usage-of-tostring-in-javascript/6853910#6853910) on StackOverflow
-* [Why does 10..toString\(\) work, but 10.toString\(\) does not?](https://stackoverflow.com/questions/13149282/why-does-10-tostring-work-but-10-tostring-does-not/13149301#13149301)
+* [Why does 10..toString() work, but 10.toString() does not?](https://stackoverflow.com/questions/13149282/why-does-10-tostring-work-but-10-tostring-does-not/13149301#13149301)
 
 ### Extra Newness
 
@@ -2043,10 +2043,10 @@ So this comparison is performed like this:
 
 ## 📚 Other resources
 
-* [wtfjs.com](http://wtfjs.com/) — a collection of those very special irregularities, inconsistencies and just plain painfully unintuitive moments for the language of the web.
+* [wtfjs.com](http://wtfjs.com) — a collection of those very special irregularities, inconsistencies and just plain painfully unintuitive moments for the language of the web.
 * [Wat](https://www.destroyallsoftware.com/talks/wat) — A lightning talk by Gary Bernhardt from CodeMash 2012
 * [What the... JavaScript?](https://www.youtube.com/watch?v=2pL28CcEijU) — Kyle Simpsons talk for Forward 2 attempts to “pull out the crazy” from JavaScript. He wants to help you produce cleaner, more elegant, more readable code, then inspire people to contribute to the open source community.
-* [Zeros in JavaScript](http://zero.milosz.ca/) — a comparison table of `==`, `===`, `+` and `*` in JavaScript.
+* [Zeros in JavaScript](http://zero.milosz.ca) — a comparison table of `==`, `===`, `+` and `*` in JavaScript.
 
 ## 🤝 Supporting
 
@@ -2056,12 +2056,12 @@ Every single donation is important. Your donation is gonna make a clear statemen
 
 **🙏 Thank you for your support! 🙏**
 
-| Service | Link | Action |
-| :--- | :---: | :---: |
-| **Patreon** | [Become a patron](https://patreon.com/denysdovhan) |  |
-| **BuyMeACoffee** | [Buy me a cup of ☕️ or 🥤](https://patreon.com/denysdovhan) |  |
-| **Bitcoin** | `1EJsKs6rPsqa7QLoVLpe3wgcdL9Q8WmDxE` | ![](https://user-images.githubusercontent.com/3459374/107130426-0ae4f800-68d6-11eb-9b86-15bf33467615.png) |
-| **Ethereum** | `0x6aF39C917359897ae6969Ad682C14110afe1a0a1` | ![](https://user-images.githubusercontent.com/3459374/107130370-55b24000-68d5-11eb-93f5-075355c7fcd4.png) |
+| Service          |                             Link                            |                                                   Action                                                  |
+| ---------------- | :---------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| **Patreon**      |      [Become a patron](https://patreon.com/denysdovhan)     |                                                                                                           |
+| **BuyMeACoffee** | [Buy me a cup of ☕️ or 🥤](https://patreon.com/denysdovhan) |                                                                                                           |
+| **Bitcoin**      |             `1EJsKs6rPsqa7QLoVLpe3wgcdL9Q8WmDxE`            | ![](https://user-images.githubusercontent.com/3459374/107130426-0ae4f800-68d6-11eb-9b86-15bf33467615.png) |
+| **Ethereum**     |         `0x6aF39C917359897ae6969Ad682C14110afe1a0a1`        | ![](https://user-images.githubusercontent.com/3459374/107130370-55b24000-68d5-11eb-93f5-075355c7fcd4.png) |
 
 > **⚠️ Note:** I live in Ukraine and services like PayPal and Stripe don't work with Ukrainian bank accounts. This means there's no way for me to set up GitHub Sponsors, OpenCollective, or services relied on them. Sorry, those are the only ways you can support me for now.
 
@@ -2071,5 +2071,4 @@ Every single donation is important. Your donation is gonna make a clear statemen
 
 © [Denys Dovhan](http://denysdovhan.com)
 
-\[bmc-image\]: [https://img.shields.io/badge/support-buymeacoffee-222222.svg?style=flat-square](https://img.shields.io/badge/support-buymeacoffee-222222.svg?style=flat-square)
-
+\[bmc-image]: [https://img.shields.io/badge/support-buymeacoffee-222222.svg?style=flat-square](https://img.shields.io/badge/support-buymeacoffee-222222.svg?style=flat-square)

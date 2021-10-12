@@ -4,7 +4,7 @@
 
 **Programming paradigms** are a way to classify [programming languages](https://en.wikipedia.org/wiki/Programming_language) based on their features. Languages can be classified into multiple paradigms.
 
-Some paradigms are concerned mainly with implications for the [execution model](https://en.wikipedia.org/wiki/Execution_model) of the language, such as allowing [side effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29), or whether the sequence of operations is defined by the execution model. Other paradigms are concerned mainly with the way that code is organized, such as grouping a code into units along with the state that is modified by the code. Yet others are concerned mainly with the style of syntax and grammar.
+Some paradigms are concerned mainly with implications for the [execution model](https://en.wikipedia.org/wiki/Execution_model) of the language, such as allowing [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)), or whether the sequence of operations is defined by the execution model. Other paradigms are concerned mainly with the way that code is organized, such as grouping a code into units along with the state that is modified by the code. Yet others are concerned mainly with the style of syntax and grammar.
 
 
 
@@ -36,11 +36,11 @@ for i in range(20):
 
 The first example is declarative because we do not specify any "implementation details" of building the list.
 
-To tie in a C\# example, generally, using LINQ results in a declarative style, because you aren't saying _how_ to obtain what you want; you are only saying _what_ you want. You could say the same about SQL.
+To tie in a C# example, generally, using LINQ results in a declarative style, because you aren't saying _how_ to obtain what you want; you are only saying _what_ you want. You could say the same about SQL.
 
 One benefit of declarative programming is that it allows the compiler to make decisions that might result in better code than what you might make by hand. Running with the SQL example, if you had a query like
 
-```text
+```
 SELECT score FROM games WHERE id < 100;
 ```
 
@@ -48,7 +48,6 @@ the SQL "compiler" can "optimize" this query because it knows that `id` is an in
 
 ## References
 
-* [https://en.wikipedia.org/wiki/Programming\_paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
+* [https://en.wikipedia.org/wiki/Programming_paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
 * [https://www.freecodecamp.org/news/imperative-vs-declarative-programming-difference/](https://www.freecodecamp.org/news/imperative-vs-declarative-programming-difference/)
 * [https://www.youtube.com/watch?v=9bW8dp1M1Ac](https://www.youtube.com/watch?v=9bW8dp1M1Ac)
-

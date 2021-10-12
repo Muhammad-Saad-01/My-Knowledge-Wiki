@@ -1,5 +1,5 @@
 ---
-description: 'Overview about Algorithms, What? Why?'
+description: Overview about Algorithms, What? Why?
 ---
 
 # Algorithms
@@ -22,4 +22,3 @@ description: 'Overview about Algorithms, What? Why?'
 * [Branch and Bound](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#BranchandBound)
 * [Quizzes on Algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#QuizzesonAlgorithms)
 * [Misc](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#Misc)
-

@@ -1,2 +1,2 @@
-# String Processing \(Pattern Matching\)
+# String Processing (Pattern Matching)
 
