@@ -20,7 +20,7 @@ I share many pages, boards, and lists on my [public Notion page](https://www.not
 
 ## Grow your own digital garden 🌱
 
-Such wikis are also called [digital gardens](https://joelhooks.com/digital-garden). There is a [DigitalGardens community on Reddit](https://www.reddit.com/r/DigitalGardens/) which discusses tools to maintain & create these wikis. As well as how to use them to develop [new transformative tools for thought](https://numinous.productions/ttft/).
+Such wikis are also called [Digital Gardens](https://joelhooks.com/digital-garden). There is a [Digital Gardens community on Reddit](https://www.reddit.com/r/DigitalGardens/) which discusses tools to maintain & create these wikis. As well as how to use them to develop [new transformative tools for thought](https://numinous.productions/ttft/).
 
 Don't be afraid to create one of your own and share what you know with the world.
 
