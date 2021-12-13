@@ -4,9 +4,11 @@ description: Who am I? Why I do this?
 
 # Introduction
 
-This is my personal wiki where I share Everything I Know about this world in form of an [online GitBook](https://wiki.muhammad-saad.me) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by [Omar Bahareth](https://github.com/obahareth), [TheBlueBook, ](https://lyz-code.github.io/blue-book/)and [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
+This is my personal wiki where I share Everything I Know about this world in form of an [online GitBook](https://wiki.muhammad-saad.net) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by [Omar Bahareth](https://github.com/obahareth), [TheBlueBook, ](https://lyz-code.github.io/blue-book/)and [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
 
-If this is your first visit, welcome! , you may be overwhelmed by the amount of content and don't know where to start reading. A good entry point is [meta](meta.md), where I describe this wiki, its structure, and goals in more detail.
+If this is your first visit, welcome! , you may be overwhelmed by the amount of content and don't know where to start reading.&#x20;
+
+A good entry point is [meta](meta.md), where I describe this wiki, its structure, and goals in more detail.
 
 to use this wiki well you can quickly search the contents of this wiki above or you can explore the tree view to the left.
 
@@ -32,7 +34,7 @@ I'd love to hear any [ideas you have](https://github.com/Muhammad-Saad-01/My-Kno
 
 ## Thank you 😇
 
-You can support me by star this repo on GitHub or look into [other projects](https://muhammad-saad.me/index.html#portfolio) I shared.
+You can support me by star this repo on GitHub or look into [other projects](https://github.com/muhammad-saad-01) I shared.
 
 You can [ask me anything](https://github.com/Muhammad-Saad-01/AMA) you want at any time.
 
