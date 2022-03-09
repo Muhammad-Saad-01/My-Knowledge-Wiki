@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Hello 👋🏻](README.md)
+* [Hello](README.md)
 * [Meta](meta.md)
 
 ## Computer Science <a href="#cs" id="cs"></a>
@@ -41,6 +41,7 @@
     * [SOLID Principles](cs/software-engineering/software-design-and-architecture/solid-principles/README.md)
       * [Java Example](cs/software-engineering/software-design-and-architecture/solid-principles/java-example.md)
     * [KISS Principles](cs/software-engineering/software-design-and-architecture/kiss-principles.md)
+    * [Design Data-Intensive Applications](cs/software-engineering/software-design-and-architecture/design-data-intensive-applications.md)
 * [Programming](cs/programming/README.md)
   * [Languages](cs/programming/languages/README.md)
     * [Java](cs/programming/languages/java.md)
@@ -53,10 +54,32 @@
     * [Functional Programming](cs/programming/paradigms/functional-programming.md)
     * [Aspect-Oriented Programming](cs/programming/paradigms/aspect-oriented-programming.md)
 
+## Web Development
+
+* [Frontend Development](web-development/frontend-development.md)
+* [Backend Development](web-development/backend-development.md)
+
+## Data Science
+
+* [Overview](data-science/overview.md)
+* [Data Science](data-science/data-science.md)
+* [Data Analytics](data-science/data-analytics.md)
+* [Data Engineering](data-science/data-engineering/README.md)
+  * [Big Data Engineering](data-science/data-engineering/big-data-engineering.md)
+* [Data Visualization](data-science/data-visualization.md)
+
 ## Education
 
+* [Overview](education/overview.md)
 * [Philosophy of Education](education/philosophy-of-education.md)
 * [Pedagogies](education/pedagogies.md)
+* [Education Technology](education/education-technology/README.md)
+  * [Education Technology Landscape](education/education-technology/education-technology-landscape.md)
+
+## UI\&UX Design
+
+* [User Interface](ui-and-ux-design/user-interface.md)
+* [User Experience](ui-and-ux-design/user-experience.md)
 
 ## Useful Software Products <a href="#apps" id="apps"></a>
 
