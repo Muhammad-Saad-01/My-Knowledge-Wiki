@@ -30,7 +30,7 @@ The source is available here: [https://github.com/denysdovhan/wtfjs](https://git
 
 > Just for fun
 >
-> — [_**“Just for Fun: The Story of an Accidental Revolutionary”**_](https://en.wikipedia.org/wiki/Just_for_Fun)_, Linus Torvalds_
+> — [_**“Just for Fun: The Story of an Accidental Revolutionary”**_](https://en.wikipedia.org/wiki/Just\_for\_Fun)_, Linus Torvalds_
 
 The primary goal of this list is to collect some crazy examples and explain how they work, if possible. Just because it's fun to learn something that we didn't know before.
 
@@ -237,7 +237,7 @@ Similarly, `-0` and `0` are strictly equal, but they're not the same value.
 For more details about `NaN === NaN`, see the above case.
 
 * [Here are the TC39 specs about Object.is](https://tc39.es/ecma262/#sec-object.is)
-* [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) on MDN
+* [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality\_comparisons\_and\_sameness) on MDN
 
 ### It's a fail
 
@@ -285,7 +285,7 @@ More examples:
 ```
 
 * [Brainfuck beware: JavaScript is after you!](http://patriciopalladino.com/blog/2012/08/09/non-alphanumeric-javascript.html)
-* [Writing a sentence without using the Alphabet](https://bluewings.github.io/en/writing-a-sentence-without-using-the-alphabet/#weird-javascript-generator) — generate any phrase using JavaScript 
+* [Writing a sentence without using the Alphabet](https://bluewings.github.io/en/writing-a-sentence-without-using-the-alphabet/#weird-javascript-generator) — generate any phrase using JavaScript&#x20;
 
 ### `[]` is truthy, but not `true`
 
@@ -371,7 +371,7 @@ Number.MIN_VALUE > 0; // -> true
 >
 > — [“Why is `0` less than `Number.MIN_VALUE` in JavaScript?”](https://stackoverflow.com/questions/26614728/why-is-0-less-than-number-min-value-in-javascript) at StackOverflow
 
-* [**20.1.2.9** Number.MIN_VALUE](https://www.ecma-international.org/ecma-262/#sec-number.min_value)
+* [**20.1.2.9** Number.MIN\_VALUE](https://www.ecma-international.org/ecma-262/#sec-number.min\_value)
 
 ### function is not a function
 
@@ -450,7 +450,7 @@ JS throws an error:
 TypeError: Super constructor null of Foo is not a constructor
 ```
 
-* [An explanation of this issue](https://github.com/denysdovhan/wtfjs/pull/102#discussion_r259143582) by [@geekjob](https://github.com/geekjob)
+* [An explanation of this issue](https://github.com/denysdovhan/wtfjs/pull/102#discussion\_r259143582) by [@geekjob](https://github.com/geekjob)
 
 ### Adding arrays
 
@@ -488,7 +488,7 @@ a.toString(); // -> ',,'
 
 > **Trailing commas** (sometimes called "final commas") can be useful when adding new elements, parameters, or properties to JavaScript code. If you want to add a new property, you can simply add a new line without modifying the previously last line if that line already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
 >
-> — [Trailing commas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas) at MDN
+> — [Trailing commas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing\_commas) at MDN
 
 ### Array equality is a monster
 
@@ -968,7 +968,7 @@ console.log.call.call.call.call.call.apply(a => a, [1, 2]);
 Attention, it could break your mind! Try to reproduce this code in your head: we're applying the `call` method using the `apply` method. Read more:
 
 * [**19.2.3.3** Function.prototype.call(`thisArg`, ...`args`)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.call)
-* [**19.2.3.1 ** Function.prototype.apply(`thisArg`, `argArray`)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.apply)
+* [**19.2.3.1** Function.prototype.apply(`thisArg`, `argArray`)](https://www.ecma-international.org/ecma-262/#sec-function.prototype.apply)
 
 ### A `constructor` property
 
@@ -1005,7 +1005,7 @@ c[c][c]('console.log("WTF?")')(); // > WTF?
 
 An `Object.prototype.constructor` returns a reference to the `Object` constructor function that created the instance object. In case with strings it is `String`, in case with numbers it is `Number` and so on.
 
-* [`Object.prototype.constructor`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor) at MDN
+* [`Object.prototype.constructor`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global\_Objects/Object/constructor) at MDN
 * [**19.1.3.1** Object.prototype.constructor](https://www.ecma-international.org/ecma-262/#sec-object.prototype.constructor)
 
 ### Object as a key of object's property
@@ -1033,7 +1033,7 @@ We can make "brackets hell" like this:
 
 Read more about object literals here:
 
-* [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) at MDN
+* [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object\_initializer) at MDN
 * [**12.2.6** Object Initializer](http://www.ecma-international.org/ecma-262/6.0/#sec-object-initializer)
 
 ### Accessing prototypes with `__proto__`
@@ -1056,7 +1056,7 @@ This happens because when something doesn't have a prototype, it will be wrapped
 
 Here is more information about `__proto__`:
 
-* [**B.2.2.1** Object.prototype.**proto**](https://www.ecma-international.org/ecma-262/#sec-object.prototype.\__proto\_\_)
+* [**B.2.2.1** Object.prototype.**proto**](https://www.ecma-international.org/ecma-262/#sec-object.prototype.\_\_proto\_\_)
 * [**7.1.13** ToObject(`argument`)](https://www.ecma-international.org/ecma-262/#sec-toobject)
 
 ### `` `${{Object}}` ``
@@ -1086,7 +1086,7 @@ We defined an object with a property `Object` using _Shorthand property notation
 Then we've passed this object to the template literal, so the `toString` method calls for that object. That's why we get the string `'[object Object]'`.
 
 * [**12.2.9** Template Literals](https://www.ecma-international.org/ecma-262/#sec-template-literals)
-* [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) at MDN
+* [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object\_initializer) at MDN
 
 ### Destructuring with default values
 
@@ -1116,7 +1116,7 @@ With the example above:
 2. Then we pack the value of `x` into the object property `x`.
 3. Then we extract the value of `x` using destructuring and want to assign it to `y`. If the value is not defined, then we're going to use `1` as the default value.
 4. Return the value of `y`.
-5. [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer) at MDN
+5. [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object\_initializer) at MDN
 
 ### Dots and spreading
 
@@ -1423,7 +1423,7 @@ let f = (...args) => args;
 f("a");
 ```
 
-* [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) at MDN.
+* [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow\_functions) at MDN.
 
 ### Tricky return
 
@@ -1584,7 +1584,7 @@ Math.min() > Math.max(); // -> true
 
 #### 💡 Explanation:
 
-* [Why is Math.max() less than Math.min()?](https://charlieharvey.org.uk/page/why_math_max_is_less_than_math_min) by Charlie Harvey
+* [Why is Math.max() less than Math.min()?](https://charlieharvey.org.uk/page/why\_math\_max\_is\_less\_than\_math\_min) by Charlie Harvey
 
 ### Comparing `null` to `0`
 
@@ -1721,7 +1721,7 @@ thePromise.then(value => {
 
 > This function flattens nested layers of promise-like objects (e.g. a promise that resolves to a promise that resolves to something) into a single layer.
 
-* [Promise.resolve() on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve)
+* [Promise.resolve() on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Promise/resolve)
 
 The specification is [ECMAScript 25.6.1.3.2 Promise Resolve Functions](https://tc39.es/ecma262/#sec-promise-resolve-functions). But it is not quite human-friendly.
 
@@ -1782,7 +1782,7 @@ The opposite is happening for `Math.min`. `Math.min` returns ∞, if no argument
 
 * [**15.8.2.11** Math.max](https://262.ecma-international.org/5.1/#sec-15.8.2.11)
 * [**15.8.2.11** Math.min](https://262.ecma-international.org/5.1/#sec-15.8.2.12)
-* [Why is `Math.max()` less than `Math.min()`?](https://charlieharvey.org.uk/page/why_math_max_is_less_than_math_min)
+* [Why is `Math.max()` less than `Math.min()`?](https://charlieharvey.org.uk/page/why\_math\_max\_is\_less\_than\_math\_min)
 
 ### `arguments` binding
 
@@ -1846,7 +1846,7 @@ Timeout duration was set to 1.
 ```
 
 * [WindowOrWorkerGlobalScope.setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) on MDN
-* [Node.js Documentation on Timers](https://nodejs.org/api/timers.html#timers_settimeout_callback_delay_args)
+* [Node.js Documentation on Timers](https://nodejs.org/api/timers.html#timers\_settimeout\_callback\_delay\_args)
 * [Timers](https://www.w3.org/TR/2011/WD-html5-20110525/timers.html) on W3C
 
 ### Double dot

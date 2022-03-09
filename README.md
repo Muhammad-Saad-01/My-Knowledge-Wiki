@@ -1,8 +1,10 @@
 ---
 description: Who am I? Why I do this?
+cover: .gitbook/assets/Notion-Covers.png
+coverY: 129.99999999999997
 ---
 
-# Introduction
+# Hello 👋🏻
 
 This is my personal wiki where I share Everything I Know about this world in form of an [online GitBook](https://wiki.muhammad-saad.net) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by [Omar Bahareth](https://github.com/obahareth), [TheBlueBook, ](https://lyz-code.github.io/blue-book/)and [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
 
@@ -34,7 +36,7 @@ I'd love to hear any [ideas you have](https://github.com/Muhammad-Saad-01/My-Kno
 
 ## Thank you 😇
 
-You can support me by star this repo on GitHub or look into [other projects](https://github.com/muhammad-saad-01) I shared.
+You can support me by star this repo on GitHub or look into other [projects ](https://github.com/muhammad-saad-01)I shared.
 
 You can [ask me anything](https://github.com/Muhammad-Saad-01/AMA) you want at any time.
 

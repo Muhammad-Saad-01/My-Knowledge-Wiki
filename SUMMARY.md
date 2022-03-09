@@ -1,10 +1,11 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Hello 👋🏻](README.md)
 * [Meta](meta.md)
 
-## Computer Science <a href="cs" id="cs"></a>
+## Computer Science <a href="#cs" id="cs"></a>
 
+* [Overview](cs/overview.md)
 * [Algorithms](cs/algorithms/README.md)
   * [Analysis of Algorithms](cs/algorithms/analysis-of-algorithms.md)
   * [Searching](cs/algorithms/overview.md)
@@ -57,7 +58,7 @@
 * [Philosophy of Education](education/philosophy-of-education.md)
 * [Pedagogies](education/pedagogies.md)
 
-## Useful Software Products <a href="apps" id="apps"></a>
+## Useful Software Products <a href="#apps" id="apps"></a>
 
 * [Note Taking](apps/untitled.md)
 * [Brainstorming](apps/brainstorming.md)
