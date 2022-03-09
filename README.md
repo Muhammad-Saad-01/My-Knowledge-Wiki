@@ -4,12 +4,12 @@ cover: .gitbook/assets/Notion-Covers.png
 coverY: 129.99999999999997
 ---
 
-# Hello 👋🏻
+# Hello
 
-This is my personal wiki where I share Everything I Know about this world in form of an [online GitBook](https://wiki.muhammad-saad.net) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki).and it's heavily inspired by [Omar Bahareth](https://github.com/obahareth), [TheBlueBook, ](https://lyz-code.github.io/blue-book/)and [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
+This is my personal wiki where I share Everything I Know about this world in form of an [online GitBook](https://wiki.muhammad-saad.net) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki), and it's heavily inspired by [Omar Bahareth](https://github.com/obahareth), [TheBlueBook, ](https://lyz-code.github.io/blue-book/)and [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
 
-If this is your first visit, welcome! , you may be overwhelmed by the amount of content and don't know where to start reading.&#x20;
-
+If this is your first visit, welcome!\
+you may be overwhelmed and don't know where to start reading. \
 A good entry point is [meta](meta.md), where I describe this wiki, its structure, and goals in more detail.
 
 to use this wiki well you can quickly search the contents of this wiki above or you can explore the tree view to the left.
