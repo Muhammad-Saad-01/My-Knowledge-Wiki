@@ -1,7 +1,5 @@
 ---
-description: Who am I? Why I do this?
-cover: .gitbook/assets/Notion-Covers.png
-coverY: 129.99999999999997
+description: Information not shared is information lost.
 ---
 
 # Hello
