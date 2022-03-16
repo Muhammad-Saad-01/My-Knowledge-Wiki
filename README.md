@@ -1,7 +1,3 @@
----
-description: Information not shared is information lost.
----
-
 # Hello
 
 This is my personal wiki where I share Everything I Know about this world in form of an [online GitBook](https://wiki.muhammad-saad.net) hosted on [GitHub](https://github.com/Muhammad-Saad-01/My-Knowledge-Wiki), and it's heavily inspired by [Omar Bahareth](https://github.com/obahareth), [TheBlueBook, ](https://lyz-code.github.io/blue-book/)and [Nikita Voloboev](https://github.com/nikitavoloboev/knowledge).
@@ -25,6 +21,8 @@ I share many pages, boards, and lists on my [public Notion page](https://www.not
 Such wikis are also called [Digital Gardens](https://joelhooks.com/digital-garden). There is a [Digital Gardens community on Reddit](https://www.reddit.com/r/DigitalGardens/) which discusses tools to maintain & create these wikis. As well as how to use them to develop [new transformative tools for thought](https://numinous.productions/ttft/).
 
 Don't be afraid to create one of your own and share what you know with the world.
+
+> Information not shared is information lost.
 
 ## Contributing ✍🏻
 
